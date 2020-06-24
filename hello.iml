@@ -2,7 +2,7 @@
 <module type="RUST_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Elixir" name="Elixir facet">
-      <configuration sdkName="Elixir 1.10.1" />
+      <configuration sdkName="" />
     </facet>
   </component>
   <component name="NewModuleRootManager">

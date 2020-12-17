@@ -4,6 +4,8 @@ fn main() {
     println!("Printing {} lines", "some");
 
     greet_world();
+
+    println!("Juhu!!!");
 }
 
 fn greet_world() {
@@ -15,7 +17,6 @@ fn greet_world() {
     let regions = [southern_germany, japan];
 
     for region in regions.iter() {
-            println!("{}", &region);
+        println!("{}", &region);
     }
 }
-

@@ -5,4 +5,3 @@ authors = ["Guenter Hummel <guenter.hummel@mac.com>"]
 edition = "2018"
 
 [dependencies]
-bracket-lib = "0.8.1"

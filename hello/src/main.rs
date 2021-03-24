@@ -1,7 +1,7 @@
 fn main() {
     println!("Hello, world!");
     println!("Gue was here");
-    println!("Printing {} lines", "some");
+    println!("Printing some lines");
 
     greet_world();
 
@@ -13,10 +13,17 @@ fn greet_world() {
 
     let southern_germany = "Grüß Gott!";
     let japan = "ハロー・ワールド";
+    let russian = "Привет, мир";
 
-    let regions = [southern_germany, japan];
+    let regions = [southern_germany, japan, russian];
 
     for region in regions.iter() {
         println!("{}", &region);
+    }
+
+    let my_list = ["One", "Two", "Three"];
+
+    for num in &my_list {
+        println!("{}", &num);
     }
 }

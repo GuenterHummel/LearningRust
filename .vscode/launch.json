@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "lldb",
             "request": "launch",
@@ -12,7 +13,8 @@
                 "args": [
                     "build",
                     "--bin=hello",
-                    "--package=hello"
+                    "--package=hello",
+                    "--target-dir=target"
                 ],
                 "filter": {
                     "name": "hello",
@@ -30,7 +32,8 @@
                 "args": [
                     "build",
                     "--bin=treehouse",
-                    "--package=hello"
+                    "--package=hello",
+                    "--target-dir=target"
                 ],
                 "filter": {
                     "name": "treehouse",
@@ -68,7 +71,8 @@
                     "test",
                     "--no-run",
                     "--bin=treehouse",
-                    "--package=treehouse"
+                    "--package=treehouse",
+                    "--target-dir=target"
                 ],
                 "filter": {
                     "name": "treehouse",

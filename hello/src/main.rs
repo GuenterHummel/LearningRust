@@ -11,7 +11,7 @@ fn main() {
 fn greet_world() {
     println!("Hello, world!");
 
-    let southern_germany = "Grüß Gott!";
+    let southern_germany = "Grüße, Welt";
     let japan = "ハロー・ワールド";
     let russian = "Привет, мир";
 

@@ -13,9 +13,10 @@ fn greet_world() {
 
     let southern_germany = "Grüße, Welt";
     let japan = "ハロー・ワールド";
-    let russian = "Привет, мир";
+    let icelandic = "Halló heimur";
+    let arabic: &str = "مرحبا بالعالم";
 
-    let regions = [southern_germany, japan, russian];
+    let regions = [southern_germany, japan, icelandic, arabic];
 
     for region in regions.iter() {
         println!("{}", &region);

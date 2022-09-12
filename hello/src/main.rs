@@ -11,13 +11,13 @@ fn main() {
 fn greet_world() {
     println!("Hello, world!");
 
-    let southern_germany = "Hallo Welt";
+    let german = "Hallo Welt";
     let japan = "ハロー・ワールド";
     let icelandic = "Halló heimur";
-    let arabic: &str = "مرحبا بالعالم";
-    let french: &str = "Bonjour le monde";
+    let arabic  = "مرحبا بالعالم";
+    let french = "Bonjour le monde";
 
-    let regions = [southern_germany, japan, french, arabic, icelandic];
+    let regions = [german, japan, french, arabic, icelandic];
 
     for region in regions.iter() {
         println!("{}", &region);

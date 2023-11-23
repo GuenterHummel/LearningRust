@@ -5,3 +5,5 @@ members = [
     "treehouse",
     "gcd"
 ]
+
+resolver = "2"

@@ -1,0 +1,18 @@
+Index: .idea/LearningRust.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"CPP_MODULE\" version=\"4\">\r\n  <component name=\"Go\" enabled=\"true\" />\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/hello/src\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/treehouse/src\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/gcd/src\" isTestSource=\"false\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/hello/target\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/treehouse/target\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/LearningRust.iml b/.idea/LearningRust.iml
+--- a/.idea/LearningRust.iml	(revision 1b4958d81acd4f9473fb16f17ca7e33353f617e6)
++++ b/.idea/LearningRust.iml	(date 1746617079652)
+@@ -6,6 +6,7 @@
+       <sourceFolder url="file://$MODULE_DIR$/hello/src" isTestSource="false" />
+       <sourceFolder url="file://$MODULE_DIR$/treehouse/src" isTestSource="false" />
+       <sourceFolder url="file://$MODULE_DIR$/gcd/src" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/hello/tests" isTestSource="true" />
+       <excludeFolder url="file://$MODULE_DIR$/hello/target" />
+       <excludeFolder url="file://$MODULE_DIR$/treehouse/target" />
+       <excludeFolder url="file://$MODULE_DIR$/target" />

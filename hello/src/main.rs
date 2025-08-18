@@ -14,7 +14,7 @@ fn greet_world() {
     let german = "Hallo Welt";
     let japanese = "ハロー・ワールド";
     let icelandic = "Halló heimur";
-    let arabic  = "مرحبا بالعالم";
+    let arabic = "مرحبا بالعالم";
     let french = "Bonjour le monde";
 
     let regions = [german, japanese, french, arabic, icelandic];

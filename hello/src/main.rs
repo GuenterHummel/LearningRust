@@ -11,19 +11,19 @@ fn main() {
 fn greet_world() {
     println!("Hello, world!");
 
-    let german = "Hallo Welt";
-    let japanese = "ハロー・ワールド";
-    let icelandic = "Halló heimur";
-    let arabic = "مرحبا بالعالم";
-    let french = "Bonjour le monde";
+    let german: &'static str = "Hallo Welt";
+    let japanese: &'static str = "ハロー・ワールド";
+    let icelandic: &'static str = "Halló heimur";
+    let arabic: &'static str = "مرحبا بالعالم";
+    let french: &'static str = "Bonjour le monde";
 
-    let regions = [german, japanese, french, arabic, icelandic];
+    let regions: [&'static str; 5] = [german, japanese, french, arabic, icelandic];
 
     for region in regions.iter() {
         println!("{}", &region);
     }
 
-    let my_list = ["One", "Two", "Three"];
+    let my_list: [&'static str; 3] = ["One", "Two", "Three"];
 
     for num in &my_list {
         println!("{}", &num);
